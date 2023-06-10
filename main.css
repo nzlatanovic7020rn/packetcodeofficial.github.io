@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('path/to/roboto-regular.woff2') format('woff2'),
+         url('path/to/roboto-regular.woff') format('woff');
+}
+
+.frame {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.navbar {
+    background-color: #101D2F;
+    overflow: hidden;
+    width: 100%;
+    height: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.navbar-logo {
+    float: left;
+    padding: 8px 12px;
+}
+
+.navbar-title {
+    float: left;
+    padding: 14px 16px;
+    color: #FFF;
+    margin-left: -200px; 
+}
+
+.navbar-links {
+    float: right;
+    padding: 14px 16px;
+}
+
+.navbar-links a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navbar-links a:hover {
+    color: #666;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.nav-link {
+    color:#ffffff; 
+    font-size:1.3rem;
+}
+
+.prvi{
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.card .card-header {
+    height: 30%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #101D2F; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card {
+    border-radius: 10px; 
+    background-color: #1F8795;
+}
+
+.card .card-body {
+    text-align: left;
+}
+
+.card .card-header h3 {
+    text-align: center; 
+    color:#ffffff; 
+}
+
+.card .card-body form{
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.card .card-body form .btn {
+    width: 50%; 
+    height: 25%; 
+    background-color: #18516C;
+}
+
+.row .col-12 .posebno {
+    text-decoration: 
+    underline; 
+    font-weight: bold;
+}
+
+.row .col-12 .card.prva {
+    height: 25rem; 
+    width: auto; 
+    border-radius: 10px; 
+    background-color: #FFFF; 
+    background-image: url('prvapozadinska.png'); 
+    background-size: cover; 
+    background-position: center center;
+}
+
+.row .col-12 .card.prva h1{
+    color: #FFFF;
+}
+
+.row .col-12 .card.prva .mt-2 form .searchnino{
+    min-width: 200px; 
+    border-radius: 5px; 
+    height: 2.5rem; 
+    width: 30dvw;
+}
+
+.btn.btn-primary.nino{
+    width: 50%; height: 25%; background-color: #18516C;
+}
+
+
+.nino6{
+    color: #FFFF; 
+}
+
+.card.ninocard2{
+    border-radius: 10px; background-color:#77C3C0;
+}
+
+.card.ninocard3{
+    height: 15rem; 
+    width: auto; 
+    border-radius: 10px; 
+    background-color: #FFFF; 
+    background-image: url('pozadinskadruga.png'); 
+    background-size: cover; 
+    background-position: center center;
+}
+
+.card.card.ninocard3 .card-body {
+    text-align: center;
+}
+
+.card.card.card.ninocard3 .card-body .row {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: nowrap; 
+}
+
+.ninoimput2{
+    margin-right: 10px; 
+    border-radius: 5px; 
+    height: 3dvw; 
+    width: 40dvw; 
+    min-width: 150px; 
+    min-height: 40px;
+}
+
+.ninodugme{
+    margin-bottom:0px; 
+    background-color: #18516C; 
+    color: #ffffff; 
+    border-radius: 5px; 
+    width:10dvw; 
+    height: 3dvw; 
+    min-width: 100px; 
+    min-height: 40px;
+}
+
+.nino5{
+    color:#ffffff;
+}
+.page-footer{
+    background-color:#101D2F; 
+    border-radius: 10px;
+}
